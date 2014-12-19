@@ -21,7 +21,6 @@ public class Example implements EntryPoint {
     RadioButton radioButton1 = new RadioButton("radioGroup", "Beginer");
     RadioButton radioButton2 = new RadioButton("radioGroup", "Master");
     RadioButton radioButton3 = new RadioButton("radioGroup", "Custom Mines");
-//    boolean won = true;
 
     TextBox tb = new TextBox();
 
@@ -167,7 +166,7 @@ public class Example implements EntryPoint {
     }
 
     public void winGame() {
-        boolean won = false;
+        boolean won = true;
 
         for (int i = 0; i < count.length; i++) {
             for (int j = 0; j < count[0].length; j++) {
@@ -176,7 +175,7 @@ public class Example implements EntryPoint {
                 }
             }
         }
-        if (won = true) {
+        if (won == true) {
             Window.alert("Win!!!!!!!!");
         }
     }
