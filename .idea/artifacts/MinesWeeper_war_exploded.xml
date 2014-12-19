@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="MinesWeeper:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/MinesWeeper_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="MinesWeeper/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="MinesWeeper" />
+        </element>
+      </element>
+      <element id="gwt-compiler-output" facet="MinesWeeper/gwt/GWT" />
+    </root>
+  </artifact>
+</component>
